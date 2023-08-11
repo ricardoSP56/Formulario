@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Evento - EventFlow</title>
+</head>
+<body>
+    <h1>New Event</h1>
+    <form>
+        <label for="host">Host:</label><br>
+        <input type="text" id="host" name="host" required><br><br>
+
+        <label for="email">Host Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="name">Event Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="date">Date:</label><br>
+        <input type="date" id="date" name="date" required><br><br>
+
+        <label for="hour">Hour:</label><br>
+        <input type="time" id="hour" name="hour" required><br><br>
+
+        <label for="location">Location:</label><br>
+        <input type="text" id="location" name="location" required><br><br>
+        
+        <label for="description">Event Description:</label><br>
+        <textarea type="text" id="description" name="description" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Create Event">
+
+
+    </form>
+</body>
+</html>
